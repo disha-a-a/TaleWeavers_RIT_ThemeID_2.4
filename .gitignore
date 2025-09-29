@@ -1,0 +1,2 @@
+# Ignore API key file for security
+.streamlit/secrets.toml
