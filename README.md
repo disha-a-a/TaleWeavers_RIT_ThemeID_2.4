@@ -47,6 +47,6 @@ The core purpose of ChronAicles is to bridge the gap between traditional, passiv
 
 | Resource | URL | Notes |
 | :--- | :--- | :--- |
-| **Project Video Demonstration** | **[text](https://drive.google.com/file/d/1Pt1q1LNDdeiBMK07N7EUHWTkVprrOt23/view?usp=drive_link)** | The required video demo of the project. |
-| **Supplementary Document** | `./TaleWeavers.pdf` | The final presentation document (TeamName.pdf). |
-| **Public GitHub Repository** | **[YOUR_REPOSITORY_URL]** | Direct link to the submission repository. |
+| **Project Video Demonstration** | **[Demo_Video](https://drive.google.com/file/d/1Pt1q1LNDdeiBMK07N7EUHWTkVprrOt23/view?usp=drive_link)** | The required video demo of the project. |
+| **Supplementary Document** | `[TaleWeavers.pdf](https://drive.google.com/file/d/1YGWXnlbfiHWmbebcF6AETDVRXsy08CJR/view?usp=drive_link)` | The final presentation document (TeamName.pdf). |
+| **Public GitHub Repository** | **[[Repo URL](https://github.com/disha-a-a/TaleWeavers_RIT_ThemeID_2.4)]** | Direct link to the submission repository. |
