@@ -39,6 +39,14 @@ The core purpose of ChronAicles is to bridge the gap between traditional, passiv
     streamlit run moral_storyteller.py
     ```
 
+    ## Contact Us
+
+| Name | Email ID |
+| :--- | :--- |
+| Vivek Ray | 1ms24ch049@msrit.edu |
+| Disha Agarwal | 1ms24ai018@msrit.edu |
+| Sanjeet Kumar | sanjeet29kr@gmail.com |
+
 ---
 
 ## 📼 Submissions
