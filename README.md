@@ -26,10 +26,10 @@ The core purpose of ChronAIcles is to bridge the gap between traditional, passiv
 
 
 ### Flow Diagram
-    ![flow diagram](C:\Users\Disha\Downloads\Gemini_Generated_Image_f5fgjef5fgjef5fg.png)
+    ![flow diagram]("C:\PythonProject1\Gemini_Generated_Image_f5fgjef5fgjef5fg.png")
 
 ### File Structure 
-    ![file structure ](C:\Users\Disha\OneDrive\Pictures\Screenshots\Screenshot 2025-10-04 140113.png)
+    ![file structure ](C:\PythonProject1\Screenshot 2025-10-04 140113.png)
 
 
 
