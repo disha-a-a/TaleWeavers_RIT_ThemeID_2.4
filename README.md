@@ -1,4 +1,4 @@
-# 🌳 ChronAlcles: Interactive AI-Powered Moral Storytelling
+# 🧚🏻‍♂ ChronAlcles: Interactive AI-Powered Moral Storytelling
 
 **Contest:** Samsung PRISM GenAI Hackathon 2025
 **Team Name:** Tale Weavers
@@ -26,11 +26,11 @@ The core purpose of ChronAIcles is to bridge the gap between traditional, passiv
 
 
 ### Flow Diagram
-<img src="C:\PythonProject1\Screenshot 2025-10-04 140113.png" alt="Architecture Flow" width="600" height="400">
+![Architecture Flow](readme_img/flowchart.png)
 
 
 ### File Structure 
-<img src="C:\PythonProject1\Screenshot 2025-10-04 140113.png" alt="Architecture Flow" width="600" height="400">
+![File Structure ](readme_img/file_structure.png)
 
 ### DEMO TIMINGS
 PROTOTYPE FUNCTIONING (2:10 - 4:20) IN Demo_vid.mov file
