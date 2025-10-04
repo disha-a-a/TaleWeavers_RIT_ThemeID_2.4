@@ -26,40 +26,10 @@ The core purpose of ChronAIcles is to bridge the gap between traditional, passiv
 
 
 ### Flow Diagram
-flowchart LR
-    A[Web UI] --> B[User Options]
-    B -->|User Choice| C[Story State]
-    C --> D[Prompt Builder]
-    D --> E[Generative AI (Google/HuggingFace)]
-    E -->|Story + Moral| C
-    C --> F[Image Generation / Fallback]
-    C --> G[Audio Generation]
-    G --> H[TTS Prompt]
-    B --> H
-    H --> B
-    C -->|Continue/Restart| B
-    C -->|Story + Moral| A
-    B -->|Replay / Download| A
+    ![flow diagram](C:\Users\Disha\Downloads\Gemini_Generated_Image_f5fgjef5fgjef5fg.png)
 
 ### File Structure 
-ChronAicles-TaleWeavers/
-├── .streamlit/
-│   └── secrets.toml
-│
-│
-├── assets/
-│   ├── images/
-│   │   └── greedy_ending
-    |   └──honest_ending
-    |   └──lie_ending
-    |   └──start 
-    |   └──truly_honest_ending
-│
-├── moral_storyteller.py
-├── requirements.txt
-├── README.md
-├── TaleWeavers.pdf.pdf
-└── Demo_vid.mp4
+    ![file structure ](C:\Users\Disha\OneDrive\Pictures\Screenshots\Screenshot 2025-10-04 140113.png)
 
 
 
