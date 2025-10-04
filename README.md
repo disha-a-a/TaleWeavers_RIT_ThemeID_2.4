@@ -26,12 +26,14 @@ The core purpose of ChronAIcles is to bridge the gap between traditional, passiv
 
 
 ### Flow Diagram
-    ![flow diagram]("C:\PythonProject1\Gemini_Generated_Image_f5fgjef5fgjef5fg.png")
+<img src="C:\PythonProject1\Screenshot 2025-10-04 140113.png" alt="Architecture Flow" width="600" height="400">
+
 
 ### File Structure 
-    ![file structure ](C:\PythonProject1\Screenshot 2025-10-04 140113.png)
+<img src="C:\PythonProject1\Screenshot 2025-10-04 140113.png" alt="Architecture Flow" width="600" height="400">
 
-
+### DEMO TIMINGS
+PROTOTYPE FUNCTIONING (2:10 - 4:20) IN Demo_vid.mov file
 
 
 ## ⚙️ Setup and Installation
