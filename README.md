@@ -1,21 +1,68 @@
-# 🌳 ChronoAlcles: Interactive AI-Powered Moral Storytelling
+# 🌳 ChronAlcles: Interactive AI-Powered Moral Storytelling
 
 **Contest:** Samsung PRISM GenAI Hackathon 2025
 **Team Name:** Tale Weavers
 **Theme:** Interactive Storytelling, Gameplay, and Virtual Companionship
 
 ## 📜 Project Overview
-
 ChronAlcles is an interactive storytelling platform that teaches children core moral values through active, choice-driven narratives. It leverages **Gemini 2.5 Flash** for dynamic story generation, enabling a unique, personalized moral learning journey for every child.
 
 ## 🎯 Purpose of Project
-The core purpose of ChronAicles is to bridge the gap between traditional, passive moral education and the digital, interactive learning styles of modern children. We aim to create a child-safe, highly engaging environment where ethical decisions have immediate, visible consequences, fostering empathy, critical thinking, and responsible decision-making in a way that static content cannot. Our goal is to position Samsung as a leader in providing responsible, ethical AI tools for family education.
+The core purpose of ChronAIcles is to bridge the gap between traditional, passive moral education and the digital, interactive learning styles of modern children. We aim to create a child-safe, highly engaging environment where ethical decisions have immediate, visible consequences, fostering empathy, critical thinking, and responsible decision-making in a way that static content cannot. Our goal is to position Samsung as a leader in providing responsible, ethical AI tools for family education.
 
 ### Key Features
 1.  **Dynamic Story Generation:** Uses **Gemini 2.5 Flash** to instantly generate the next chapter of the story based on user choices.
 2.  **Multimodal Experience:** Integrates dynamic background illustrations and customizable text-to-speech narration (via gTTS).
 3.  **Moral & Reflection Loop:** Every decision is tied to an ethical outcome, concluding with a gentle, customized summary of the lesson learned.
 4.  **Tech Stack:** Python 3.11, Streamlit, Gemini 2.5 Flash, Hugging Face (for image generation).
+5.  **Robust handling:** Image Fallback mechanism for continual flow and seamless story-telling experience.
+
+## 🚀 Project Highlights
+- **Consequence-Based Learning:** Every ethical decision a child makes has an immediate, visible consequence within the story, moving beyond passive lectures.
+- **Personalized Moral Journey with Unique Outcomes:** Utilizes **Gemini 2.5 Flash** to dynamically generate unique stories and a **unique moral outcome/reflection** for every session, ensuring a highly personalized moral learning experience.
+- **Immersive Audio Customization:** Offers **customizable narration (male/female/kids voices)** and the option for **downloadable audio** for convenient offline re-listening.
+- **Child-Safe & Ethical AI:** The platform is designed to create a child-safe, highly engaging environment that focuses on fostering empathy and critical thinking.
+- **Brand Alignment:** Aims to position Samsung as a leader in providing responsible, ethical AI tools for family education.
+
+
+### Flow Diagram
+flowchart LR
+    A[Web UI] --> B[User Options]
+    B -->|User Choice| C[Story State]
+    C --> D[Prompt Builder]
+    D --> E[Generative AI (Google/HuggingFace)]
+    E -->|Story + Moral| C
+    C --> F[Image Generation / Fallback]
+    C --> G[Audio Generation]
+    G --> H[TTS Prompt]
+    B --> H
+    H --> B
+    C -->|Continue/Restart| B
+    C -->|Story + Moral| A
+    B -->|Replay / Download| A
+
+### File Structure 
+ChronAicles-TaleWeavers/
+├── .streamlit/
+│   └── secrets.toml
+│
+│
+├── assets/
+│   ├── images/
+│   │   └── greedy_ending
+    |   └──honest_ending
+    |   └──lie_ending
+    |   └──start 
+    |   └──truly_honest_ending
+│
+├── moral_storyteller.py
+├── requirements.txt
+├── README.md
+├── TaleWeavers.pdf.pdf
+└── Demo_vid.mp4
+
+
+
 
 ## ⚙️ Setup and Installation
 
