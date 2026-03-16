@@ -64,7 +64,6 @@ PROTOTYPE FUNCTIONING (2:10 - 4:20) IN Demo_vid.mov file
 | :--- | :--- |
 | Vivek Ray | 1ms24ch049@msrit.edu |
 | Disha Agarwal | 1ms24ai018@msrit.edu |
-| Sanjeet Kumar | sanjeet29kr@gmail.com |
 
 ---
 
